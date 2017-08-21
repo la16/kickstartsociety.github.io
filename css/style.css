@@ -1,0 +1,590 @@
+/* YOUR CUSTOM STYLES */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+    width:100%;
+    position:relative;
+    top:0;
+    
+
+}
+
+/* style of "unipear */
+     
+.navbutton {
+    font-size:1.2vw;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.buttons {
+    position: absolute;
+    right:4vw; 
+    margin-top:2.3vw;
+}
+
+#logo {
+    width:15vw;
+    margin-top:0.6vw;
+    margin-left:0.6vw;
+    margin-bottom:0.6vw;
+}
+.topnav h1 {
+    margin-top:1.6vw;
+    margin-bottom:1.6vw;
+    margin-left:0.6vw;
+}
+
+
+    
+
+
+/* Style the links inside the navigation bar */
+
+a {
+    color: #333;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in;
+}
+
+
+/*.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}*/
+
+/* Change the color of links on hover */
+
+.topnav:hover {
+    background-color: rgba(0,0,0,0.6);
+    -webkit-transition: all .3s ease-in;
+}
+
+.topnav:hover a {color: #fff;} 
+
+/*.topnav:hover {
+    background-color: transparent;
+}   */
+
+.topnav a:hover {
+    color:#749CA8;
+}
+.topnav p:hover {
+    color:#fff;
+}
+
+/*script about navigation scroll 
+.test {
+    background-color: rgba(0,0,0,0.6);
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+.test1 {
+    color:#fff;
+} */
+
+/* main page */
+.homeview {
+    width:100vw;
+    overflow: hidden;
+    background-image: url('../img/myimages/skyline-blackandwhite.jpg');
+    background-size:cover;
+    background-blend-mode:difference;
+}
+
+
+
+.centrepage h1 {
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: none;
+    /*-webkit-transition: all .3s ease-in;*/
+    border-radius: 30px;
+    /*margin-left:3vw;
+    margin-right:3vw;*/
+    padding: 0 1vw;
+    margin:auto;
+    width:50vw;
+    border-top-color: black;
+    border-bottom-color:black;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-style: solid;
+    background-color: rgba(0,0,0,0.2);
+}
+.homeview h1:hover {
+    -webkit-transition: all .3s ease-in;
+
+}
+
+.centrepage {
+    width:100%;
+    padding-top: 14vw;
+    padding-bottom:14vw;
+}
+
+.arrow {
+    margin:auto;
+    width:100%;
+    padding-top:2vw;
+    padding-bottom:2vw;
+}
+.arrow i {
+    font-size:4vw;
+    display:block;
+    text-align: center;
+    color:white;
+}
+.arrow i:hover {
+    color: cyan;
+}
+
+
+
+/* next page start */
+
+
+.aboutUs {
+    position:relative;
+    height:auto;
+    padding-bottom:10vh;
+    padding-top:2vw;
+}
+
+.whoWeAre h1 {
+    text-align: center; 
+    font-size: 3vw;
+}
+.whoWeAre p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    line-height: 3vw;
+    text-align: justify;
+    letter-spacing:0.12vw;
+    width:92%;
+    font-size: 1vw;
+    margin: auto;
+    padding-top:1vw;
+}
+
+.quote {
+    width:50%;
+    margin: auto;
+    border-style:solid;
+    border-width: thin;
+    border-left-color: #95989A;
+    border-right-color: #95989A;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    margin-top:10vh;
+}
+
+.quote p {
+    text-align: center;
+    color: #95989A;
+    font-size:1vw;
+    margin: 0px 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing:0.1vw;
+}
+
+#author {
+    margin-top:0.6vw;
+}
+
+/*why part*/
+
+.whyIncubator {
+    overflow:hidden;
+    background-color: rgba(200,255,200,0.1);
+    padding: 5vw 0;
+}
+
+.whyIncubator i {
+    margin: 0vw 1vw;
+}
+.whyHeader  {
+    float:left;
+    width:50%;  
+}
+
+.whyHeader h1 {
+    width:30vw;
+    margin:5vw auto;
+    font-size:3vw;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    
+}
+
+.WhyInfo {
+    float:left;
+    width:50%;
+}
+
+.WhyInfo p {
+    font-size:1vw;
+    width:45vw;
+    margin:3vw auto;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact us part */
+.contactUsbox {
+    width:100%;
+    background-image:url('../img/myimages/manandcoffe.png');
+    background-size: cover;
+    padding-top:5vw;
+    padding-bottom:5vw;
+    overflow:hidden;
+}
+.formbox {
+    width:50%;
+    padding: 1vw 2vw;
+    background-color: rgba(0,0,0,0.5);
+    margin-left:3vw;
+    border-radius:20px;
+    float:left;
+    
+}
+.formbox input {
+    margin-top:2vw;
+    font-size: 1vw;
+    color:white;
+}
+
+
+::-webkit-input-placeholder {
+    color: #f9f9f9;
+}
+
+.formbox textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+#submit {
+    margin-top: 1vw;
+    margin-bottom:2vw;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.6vw 1vw;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    width:6vw;
+    font-size:1vw;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+.ContactWords {
+    width:41vw;
+    border-radius: 20px;
+    display:block;
+    float:left;
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-top:5vw;
+    background-color: rgba(255,255,255,0.1)
+}
+.ContactWords h1 {
+    color:white;
+    font-size:2vw;
+    border: 3px solid white;
+    padding:0.2vw 0.2vw;
+    width:30vw;
+    text-align: center;
+    margin: 2vw auto;
+}
+.ContactWords p {
+    color:#333;
+    width:35vw;
+    font-size:1.5vw;
+    margin: 3vw auto; 
+}
+.formbox p{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bottom page styling */
+.bottompage {
+    height:auto;
+    background-color: rgba(0,0,0,1.0);
+    overflow:hidden;
+    
+}
+#logowhite {
+    width:10vw;
+    margin-top: 3vw;
+    margin-left:1vw;
+}
+.bottompage h1 {
+    margin-top:3vw;
+    margin-left:2vw;
+    width:25vw;
+    float:left;
+    text-align: center;
+}
+    
+
+.emails p {
+    float:left;
+    display: block;
+    width:100%;
+    text-align: center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    font-size: 1vw;
+    color:#fff;
+    font-weight: 200;
+}
+.emails {
+    width:40%;
+    margin: auto;
+    height:2vw;
+    margin-top:3.8vw;
+    
+    
+}
+
+.brandlink img {
+    width:3vw;
+    height:3vw;  
+    margin: 0vw 0.5vw;
+    
+}
+.brandlink {
+    position:relative;
+    width:8vw;
+    left:90%;
+    bottom:3.3vw;
+}
+
+
+/* new page styles */
+
+
+.studentview {
+    background-size:cover;
+    background-image:url(/img/myimages/rowan-heuvel-55470.jpg);
+    position:relative;
+    width:100%;
+    clear: both;
+}
+
+
+.ambassador {
+    /*position:relative;*/
+    top:25vh;
+    padding: 18vw;
+}
+.ambassador h1 {
+    width:50vw;
+    text-align: center;
+    margin:auto;
+    font-size: 3.5vw;
+    color:#fff;
+    font-weight: 350;
+} 
+.ambassador h3 {
+    width:8vw;
+    font-size:1.5vw;
+    text-align: center;
+    margin:auto;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 40px;
+    margin-top:1vw;
+    color:#fff;
+    font-weight: 200;
+    padding-top: 0.5vw;
+    padding-bottom:0.5vw;
+}
+
+.ambassador h3:hover {
+    background-color: rgba(253,253,253,0.8);
+     -webkit-transition: all .3s ease-in;
+    border-color:transparent;
+    color:#FF6F4D;
+    
+}
+
+/* first box */
+
+.connectBox {
+    width:75%;
+    padding: 2vw 6vw;
+    background-color: rgba(253,253,253,0.8);
+    /*position:relative;*/
+    top: 55vh;
+}
+.connectContent h1 {
+    width:85%;
+    margin:auto;
+    font-size:1.5vw;
+    font-weight: 700;
+    margin-top:1.2vw;
+    
+}
+
+.connectContent p {
+    text-align: justify;
+    width:85%;
+    margin:auto;
+    letter-spacing: 0vh;
+    font-size: 1vw;
+}
+    
+
+/* begin section */
+
+.beginBox {
+    /*position: relative;*/
+    top:55vh;
+    padding: 3vw 6vw;
+    overflow:hidden;
+}
+
+.beginContent h1 {
+    text-align: center;
+    font-size:4vw;
+    color:#fff;
+}
+
+.beginParagraph {
+    width:40%;
+    float:right;
+}
+.beginContent p {
+    text-align: justify;
+    font-size: 1.8vw;
+    width: 29vw;
+    color:#fff;
+    font-weight:200;
+    line-height: normal;
+}
+
+/* why section */
+
+.whyBox {
+    /*position:relative;*/
+    top: 55vh;
+    background-color: rgba(253,253,253,0.8);
+    padding: 1.5vw 0vw;
+    width:100%;
+    overflow:hidden;
+    
+}
+.whyleft {
+    width:33vw;
+    float:left;
+    display:block;
+}
+
+
+.whyleft h1 {
+    width: 20vw;
+    font-size: 1.8vw;
+    margin: auto; 
+    color: #FF6C00;
+    margin-bottom: 2vw;
+    padding: 0.5vw 0.5vw;
+    border-style: solid;
+    border-width: thick;
+    border-color:#fff;
+}
+.whyleft p {
+    font-size: 1.2vw;
+    width:31vw;
+    margin: 1vw auto;
+    
+}
+
+.whyleft i {
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+.middleimage img{
+    width:33vw;
+    float:left;
+    display: block;
+}
+.whyright {
+    width:33vw;
+    float:left;
+    display:block;
+}
+
+
+.whyright h1 {
+    width: 20vw;
+    font-size: 1.8vw;
+    margin: auto; 
+    color: #FF6C00;
+    margin-bottom: 2vw;
+    padding: 0.5vw 0.5vw;
+    border-style: solid;
+    border-width: thick;
+    border-color:#fff;
+}
+.whyright p {
+    font-size: 1.2vw;
+    width:31vw;
+    margin: 1vw auto;
+    
+}
+
+.whyright i {
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+
+
+
+
+
+
+
+
+
+

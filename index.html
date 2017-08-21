@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>KickStart Incubator</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    <body>
+        <div class="homeview">
+<!-- nav bar all pages -->
+    <nav>
+    <div class="topnav" id="myTopnav">
+            <a class="active nav-btn" id="logowords" href="#home"> <h1>KickStart Incubator</h1> </a>
+        <div class="buttons">
+  <a class="nav-btn navbutton" href=".aboutUs">who we are</a>
+  <a class="navbutton">|</a>         
+  <a class="nav-btn navbutton" href="#contact">contact</a>
+        </div>
+</div>
+        </nav>
+<!-- end nav bar -->
+   
+        
+ <!-- page 1 viewport -->    
+        <div class="centrepage">
+        <h1 id="student"> St Andrews Incubator</h1>
+            </div>
+        <div class="arrow">
+            <a href=".aboutUs"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+        </div>
+        
+<!-- end -->
+        
+        <!-- about us viewport -->
+        <div class="aboutUs">
+            <div class="whoWeAre">
+            <h1>Who we are.</h1>
+                <p>Inspired to make a difference, St Andrews Student Incubator brings together creative, entrepenurial-minded students to <strong>brainstorm new and exciting start-up ideas</strong> and then <strong>bring them to life </strong> within our own town. Our Incubator will help you to learn vital entrepreneurial and business skills, all the while experiencing a snapshot of the vibrant start-up ecosytem. Throughout the year, our incubator will run workshops and hear from exciting speakers, in order to learn exactly what it takes to bring an idea to life. We encourage every project we develop to have core social/environmental themes within the product or business model. Our vision is to expose more students to start-up career opportunities, while learning how businesses can be essential tools for creating sustainable, positive change within communities.</p></div>
+            
+            <div class="quote">
+                <p id="quote">"you cannot depend on your eyes, when your imagination is out of focus."</p>
+                <p id="author">Mark Twain</p>
+            </div>
+        </div>
+        
+        <div class="whyIncubator">
+            <div class="whyHeader">
+                <h1>Why get involved with St Andrews Incubator?</h1>
+            </div>
+            <div class="WhyInfo">
+            <p><i class="fa fa-plus" aria-hidden="true"></i>Our incubator aims to bring the youthful and invigorating start-up scene to St Andrews. </p>
+            <p><i class="fa fa-plus" aria-hidden="true"></i>All of our projects are aimed at solving social or environmental problems</p>
+            <p><i class="fa fa-plus" aria-hidden="true"></i>Meet like-minded students, and tackle social enterprise challenges in diverse teams.</p>
+            <p><i class="fa fa-plus" aria-hidden="true"></i>Learn new skills</p>
+            </div>
+        </div>
+        
+         
+        <div class="contactUsbox" id="contact">
+        <div class="formbox">
+            
+        <form name="contact_form">
+    <input type="text" id="fname" name="name" placeholder="Your name.." required>
+    <input type="text" id="lname" name="email" placeholder="Your email.." required>
+    <textarea type="text" id="subject" name="subject" placeholder="Write something.." style="height:15vw; margin-top: 2vw; color:white;"></textarea>
+    <input type="submit1" value="Submit" onclick="showDiv()" id="submit">
+    <div id="welcomeDiv"  style="display:none; color:white;" class="answer_list" > Thanks for getting in touch.</div>        
+  </form>
+        </div>
+            
+            <div class="ContactWords">
+            <h1>We would love to hear from you!</h1>
+            <p>If you want to find out some more information, please <strong>enter your details</strong> and we will be in touch.</p>
+            </div>
+        </div>
+        
+        <!--end about us -->
+        
+        <!-- start black bottom part-->
+        <div class="bottompage">
+            <h1>KickStart Incubator</h1>
+            <div class="emails">
+            <p>Kickstartincubator@st-andrews.ac.uk</p>
+        </div>
+            <div class="brandlink">
+            <img src="img/myimages/FB-f-Logo__white_29.png"><img src="img/myimages/Twitter_Logo_White_On_Image.png">
+                </div> 
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+  
+
+
+    
+
+    
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        
+        
+        
+        
+        
+    
+       <!--myscripts--> 
+<script>
+    function showDiv() {
+   document.getElementById('welcomeDiv').style.display = "block";
+}
+        </script>
+        
+
+        
+        
+        
+        
+        
+        <script>
+$(document).ready(function(){
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 80) {
+      $("#myTopnav").addClass("test");
+        $("nav a").addClass("test1");
+    } else {
+      $("#myTopnav").removeClass("test");
+        $("nav a").removeClass("test1");
+        
+    }
+  });
+});
+</script>
+        <script>
+            $('nav a').click(function () {
+  var $href = $(this).attr('href');
+  $('body').stop().animate({
+    scrollTop: $($href).offset().top
+  }, 1000);
+  return false;
+});</script>
+        <script>
+            $('.arrow a').click(function () {
+  var $href = $(this).attr('href');
+  $('body').stop().animate({
+    scrollTop: $($href).offset().top
+  }, 1000);
+  return false;
+});</script>
+        
+       
+</body>
+
+</html>
