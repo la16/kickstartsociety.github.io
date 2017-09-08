@@ -7,6 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>KickStart Incubator</title>
     <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" />
+    <link href="http://allfont.net/allfont.css?fonts=jura-demi-bold" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,20 +22,20 @@
 <!-- nav bar all pages -->
     <nav>
     <div class="topnav" id="myTopnav">
-            <a class="active nav-btn" id="logowords" href="#home"> <h1>KickStart Incubator</h1> </a>
+            <a class="active nav-btn" id="logowords" href="#home"> <h1>student incubator.</h1> </a>
         <div class="buttons">
-  <a class="nav-btn navbutton" href=".aboutUs">who we are</a>
+  <a class="nav-btn navbutton" id="whoWeAreBtn" href=".aboutUs">who we are</a>
   <a class="navbutton">|</a>         
-  <a class="nav-btn navbutton" href="#contact">contact</a>
+  <a class="nav-btn navbutton" id="contactbtn" href="#contact">contact</a>
         </div>
 </div>
         </nav>
 <!-- end nav bar -->
    
         
- <!-- page 1 viewport -->    
+ <!-- page 1 viewport -->   
         <div class="centrepage">
-        <h1 id="student"> St Andrews Incubator</h1>
+        <h1 id="student"> kick<span style="color:#ff004c;">st.a</span>rt incubator.</h1>
             </div>
         <div class="arrow">
             <a href=".aboutUs"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
@@ -44,57 +46,65 @@
         <!-- about us viewport -->
         <div class="aboutUs">
             <div class="whoWeAre">
-            <h1>Who we are.</h1>
-                <p>Inspired to make a difference, St Andrews Student Incubator brings together creative, entrepenurial-minded students to <strong>brainstorm new and exciting start-up ideas</strong> and then <strong>bring them to life </strong> within our own town. Our Incubator will help you to learn vital entrepreneurial and business skills, all the while experiencing a snapshot of the vibrant start-up ecosytem. Throughout the year, our incubator will run workshops and hear from exciting speakers, in order to learn exactly what it takes to bring an idea to life. We encourage every project we develop to have core social/environmental themes within the product or business model. Our vision is to expose more students to start-up career opportunities, while learning how businesses can be essential tools for creating sustainable, positive change within communities.</p></div>
+            <h1>who we are.</h1>
+                <p>Inspired to make a difference, St Andrews Student Incubator brings together creative, entrepenurial-minded students to <strong>brainstorm new and exciting start-up ideas</strong> and then <strong>bring them to life </strong> within our own town. Our Incubator will help students to learn vital entrepreneurial and business skills, all the while experiencing a snapshot of the vibrant start-up ecosytem.</p></div>
+            <div class="whatWeDo">
+            <h1>what we do.</h1>
+            <p>Throughout the year, our incubator will run workshops and hear from exciting speakers, in order to learn exactly what it takes to bring an idea to life. We encourage every project we develop to have core social/environmental themes within the product or business model. Our vision is to expose more students to start-up career opportunities, while learning how businesses can be essential tools for creating sustainable, positive change within communities.</p></div>
             
-            <div class="quote">
-                <p id="quote">"you cannot depend on your eyes, when your imagination is out of focus."</p>
-                <p id="author">Mark Twain</p>
-            </div>
+            <!-- <div class="ambassador">
+            <h2> do you want to get involved!</h2>
+                <a class="typeform-share button" href="https://lewysanderson.typeform.com/to/f1KwTc" data-mode="popup"  target="_blank">become an ambassador!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            <p> We are now looking for kickstart ambassadors in each year group - this is an awesome chance to be creative and get involved in the running and marketing of our events.</p>
+            </div>-->
         </div>
         
         <div class="whyIncubator">
             <div class="whyHeader">
-                <h1>Why get involved with St Andrews Incubator?</h1>
+                <h1>Why get involved with <span style="font-style:italic;">kickstart?</span></h1>
             </div>
             <div class="WhyInfo">
-            <p><i class="fa fa-plus" aria-hidden="true"></i>Our incubator aims to bring the youthful and invigorating start-up scene to St Andrews. </p>
-            <p><i class="fa fa-plus" aria-hidden="true"></i>All of our projects are aimed at solving social or environmental problems</p>
-            <p><i class="fa fa-plus" aria-hidden="true"></i>Meet like-minded students, and tackle social enterprise challenges in diverse teams.</p>
-            <p><i class="fa fa-plus" aria-hidden="true"></i>Learn new skills</p>
+            <p><i class="fa fa-plus" aria-hidden="true"></i>social entrepeneurship projects<!--Tackle social enterprise challenges in interdisciplinary teams.--></p>
+            <p><i class="fa fa-plus" aria-hidden="true"></i>#tech4good events<!--All of our projects are aimed at solving social or environmental problems--></p>
+            <p><i class="fa fa-plus" aria-hidden="true"></i><!--Our incubator aims to bring the youthful and invigorating start-up scene to St Andrews.-->connect with the start-up world</p>
             </div>
         </div>
         
-         
-        <div class="contactUsbox" id="contact">
-        <div class="formbox">
+        <div class="fireimage">
+            <section style="height:45vw;">
+            <div class="ambassador">
+            <h2>get involved!</h2>
+                <a class="typeform-share button" href="https://lewysanderson.typeform.com/to/f1KwTc" data-mode="popup"  target="_blank">become an ambassador!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            <p> We are now looking for kickstart ambassadors in each year group - this is an awesome chance to be creative and get involved in the running and marketing of our events.</p>
+            </div></section>
             
-        <form name="contact_form">
-    <input type="text" id="fname" name="name" placeholder="Your name.." required>
-    <input type="text" id="lname" name="email" placeholder="Your email.." required>
-    <textarea type="text" id="subject" name="subject" placeholder="Write something.." style="height:15vw; margin-top: 2vw; color:white;"></textarea>
-    <input type="submit1" value="Submit" onclick="showDiv()" id="submit">
-    <div id="welcomeDiv"  style="display:none; color:white;" class="answer_list" > Thanks for getting in touch.</div>        
-  </form>
         </div>
-            
-            <div class="ContactWords">
-            <h1>We would love to hear from you!</h1>
-            <p>If you want to find out some more information, please <strong>enter your details</strong> and we will be in touch.</p>
-            </div>
+        
+        
+        
+        
+        
+        <div class="link2hatch">
+        <h3>up-coming #tech4good events</h3>
+            <img style="width: 30vw;" src="/img/myimages/HatchImage.png"/>
+            <h1>hatch.</h1>
+            <section><a href="https://www.hatch4good.org/">check out our site!</a></section>
+            <h2>beta</h2>
+            <h4>2017</h4>
         </div>
+        
+        
+        
         
         <!--end about us -->
         
         <!-- start black bottom part-->
         <div class="bottompage">
-            <h1>KickStart Incubator</h1>
-            <div class="emails">
-            <p>Kickstartincubator@st-andrews.ac.uk</p>
-        </div>
-            <div class="brandlink">
-            <img src="img/myimages/FB-f-Logo__white_29.png"><img src="img/myimages/Twitter_Logo_White_On_Image.png">
-                </div> 
+            <h1 style="color:white;">kick<span style="color:#ff004c;">st.a</span>rt Incubator</h1>
+            
+            <p>kstart@st-andrews.ac.uk</p>
+        
+            <!--<img href ="" id="fb" src="img/myimages/FB-f-Logo__white_29.png"><img src="img/myimages/Twitter_Logo_White_On_Image.png">-->
             
             
         </div>
