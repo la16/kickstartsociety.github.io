@@ -17,7 +17,7 @@
      
 .navbutton {
     font-size:1.2vw;
-    font-family: Play; 
+    font-family: Avenir LT, sans-serif; 
     
 }
 .buttons {
@@ -131,8 +131,7 @@ nav a {
     /*background-image: url('../img/myimages/skyline-blackandwhite.jpg');
     background-size:cover;
     background-blend-mode:difference;*/
-    background-image: url("/img/myimages/skyline-blackandwhite.jpg");
-    width: 100%; 
+    background-image: url("../img/myimages/skyline-blackandwhite.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,7 +167,7 @@ nav a {
 
 .centrepage {
     width:100%;
-    padding-top: 14vw;
+    padding-top: 10vw;
     padding-bottom:14vw;
 }
 
@@ -185,7 +184,7 @@ nav a {
     color:#ff004c;
 }
 .arrow i:hover {
-    color: #ff004c;
+    color: white;
 }
 
 
@@ -287,7 +286,7 @@ nav a {
 
 
 .fireimage {
-    background-image: url("/img/myimages/fireimage.jpg");
+    background-image: url("../img/myimages/fireimage.jpg");
     width: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -357,9 +356,15 @@ nav a {
     padding: 0vw 0vw;
 }
 
-.link2hatch img {
+/*.link2hatch img {
     float:right;
     display: inline-block;
+}*/
+#hatchdiv {
+    float:right;
+    display:inline-block;
+    background-image:url('../img/myimages/HatchImage.png');
+    background-size: cover;
 }
 
 
