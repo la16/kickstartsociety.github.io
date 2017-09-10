@@ -401,8 +401,8 @@ nav a {
     margin-top:1.5vw;
     margin-left:10%;
     font-size:1.4vw;
-    font-family:'Jura-Demi-Bold', arial;
     color:white;
+    font-family: Avenir LT, sans-serif;
 }
 
 .ambassador a {
@@ -413,6 +413,7 @@ nav a {
     color:white;
     border-color:transparent;
     border-style:solid;
+    border-width:thin;
     cursor:pointer;
     font-family:'Jura-Demi-Bold', arial;
     font-size:2vw;
