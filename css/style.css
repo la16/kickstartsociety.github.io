@@ -1,6 +1,12 @@
 /* YOUR CUSTOM STYLES */
 /* Add a black background color to the top navigation */
 
+
+
+@font-face {
+    font-family: Jura-Demi-Bold;
+    src: url("../font/Jura-DemiBold.otf");
+}
 /* navigation bar */
 .topnav {
     background-color: transparent;
@@ -46,7 +52,7 @@
     margin-bottom:1.6vw;
     margin-left:0.6vw;
     font-size:3vw;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
 }
 
 
@@ -152,7 +158,7 @@ nav a {
     padding: 0 1vw;
     margin:auto;
     width:60vw;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
     border-top-color: transparent;
     border-bottom-color:transparent;
     border-left-color: transparent;
@@ -204,7 +210,7 @@ nav a {
     text-align: center; 
     font-size: 3.5vw;
     margin-bottom:1vw;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
     color:#ff004c;
 }
 .whoWeAre p {
@@ -223,7 +229,7 @@ nav a {
     margin: auto; 
     margin-top:3vw;
     margin-bottom: 1vw;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
     color:#ff004c;
     text-align:center;
     font-size:3.5vw;
@@ -269,7 +275,7 @@ nav a {
     padding:3vw 2vw;
     text-align:center;
     font-weight:400;
-    font-family:'Jura Demi-Bold', arial; 
+    font-family:'Jura-Demi-Bold', arial; 
     color:white;
     font-size: 3vw;
 }
@@ -303,7 +309,7 @@ nav a {
 .link2hatch h3 {
     font-size:2vw;
     width:70vw;
-    font-family:'Jura Demi-Bold', arial;
+    font-family:'Jura-Demi-Bold', arial;
     text-align:left;
     padding: 2vw 4vw;
     float:left;
@@ -313,7 +319,7 @@ nav a {
     color:#52ffff;
     width:70vw;
     float:left;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
     text-align:right;
     padding: 0vw 2vw;
 }
@@ -323,7 +329,7 @@ nav a {
     width:10vw;
     text-align:center;
     padding: 0vw 0vw;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
 }
 .link2hatch a {
     float:left;
@@ -336,7 +342,7 @@ nav a {
     background-color:transparent;
     border-radius:40px;
     color:white;
-    font-family: 'Jura Demi-Bold', arial;
+    font-family: 'Jura-Demi-Bold', arial;
 }
 
 .link2hatch a:hover {
@@ -351,7 +357,7 @@ nav a {
     width:58vw;
     text-align:right;
     color:white;
-    font-family: 'Jura Demi-Bold', ariel;
+    font-family: 'Jura-Demi-Bold', ariel;
     font-style: oblique;
     padding: 0vw 0vw;
 }
@@ -381,7 +387,7 @@ nav a {
     width:80%;
     margin:auto;
     font-size:2.5vw;
-    font-family:'Jura Demi-Bold', arial;
+    font-family:'Jura-Demi-Bold', arial;
     color:white;
 }
 .ambassador p {
@@ -389,7 +395,7 @@ nav a {
     margin-top:1.5vw;
     margin-left:10%;
     font-size:1.4vw;
-    font-family:'Jura Demi-Bold', arial;
+    font-family:'Jura-Demi-Bold', arial;
     color:white;
 }
 
@@ -402,7 +408,7 @@ nav a {
     border-color:transparent;
     border-style:solid;
     cursor:pointer;
-    font-family:'Jura Demi-Bold', arial;
+    font-family:'Jura-Demi-Bold', arial;
     font-size:2vw;
     text-align:center;
     width:30vw;
@@ -471,6 +477,7 @@ nav a {
     float:left;
     text-align: center;
     font-size:2vw;
+    font-family:'Jura-Demi-Bold';
 }
     
 
@@ -483,6 +490,7 @@ nav a {
     font-size: 1vw;
     color:white;
     font-weight: 200;
+    font-family:'Jura-Demi-Bold';
 }
 
 .bottompage img {
