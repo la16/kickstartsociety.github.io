@@ -618,7 +618,7 @@ nav a {
 }
     
 .fireimage {
-    height:60vw;
+    height:auto;
     width:100%;
 }
     
@@ -627,7 +627,7 @@ nav a {
 }
     
 .fireimage section {
-       height:60vw;
+       height:auto;
     }
 
 .ambassador h2{
@@ -641,9 +641,9 @@ nav a {
 }
 
 .ambassador a {
-    font-size:3vw;
+    font-size:2.5vw;
     width:40vw;
-    margin: 9vw 8vw;
+    margin: 9vw 7vw;
     padding:0.38vw 0vw;
     max-width:100%;
 }
