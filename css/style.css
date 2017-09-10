@@ -300,6 +300,10 @@ nav a {
     background-size: cover;
 }
 
+.fireimage section {
+    height:45vw;
+}
+
 
 .link2hatch {
     background-color: #ff004c;
@@ -371,6 +375,8 @@ nav a {
     display:inline-block;
     background-image:url('../img/myimages/HatchImage.png');
     background-size: cover;
+    height:30vw;
+    width:30vw;
 }
 
 
@@ -429,8 +435,6 @@ nav a {
     background-color: white;
     color:#ff004c;
 }
-
-
 
 
 
@@ -503,6 +507,212 @@ nav a {
 #fb {
     margin-right:3vw;
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+    
+.navbutton {
+    font-size:3vw;
+    }
+    
+.topnav h1 {
+    margin-top:1.6vw;
+    margin-bottom:1.6vw;
+    margin-left:0.6vw;
+    font-size:5vw;
+    }
+    
+.topnav {
+        background-color:#ff004c
+    }
+
+.topnav a {
+    color:white;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    
+    }
+.topnav a:hover {
+        color:#333;
+    }
+    
+.homeview {
+    width:100vw;
+    }
+    
+.centrepage h1 {
+    font-size: 8vw;
+    width:90vw;
+    }
+    
+.centrepage {
+    padding-top: 35vw;
+    padding-bottom:35vw;
+    }
+    
+.arrow {
+    padding-top:0vw;
+    padding-bottom:0vw;
+    }
+    
+.arrow i {
+    padding-top:2vw;
+    padding-bottom:2vw;    
+    font-size:10vw;
+    }
+    
+.aboutUs {
+    padding-bottom:12vw;
+    padding-top:12vw;
+    }
+
+.whoWeAre h1 {
+    
+    font-size: 8vw;
+    margin-bottom:2vw;
+}
+.whoWeAre p {
+    width:80%;
+    line-height: 6vw;
+    letter-spacing:0.12vw;
+    font-size: 3.5vw;
+    padding-top:1vw;
+}
+.whatWeDo h1 {
+    margin-top:12vw;
+    margin-bottom: 3vw;
+    font-size:8vw;
+}
+
+.whatWeDo p {
+    width:80%;
+    line-height: 6vw;
+    letter-spacing:0.12vw;
+    font-size: 3.5vw;
+    padding-top:1vw;
+}
+
+.whyIncubator {
+    padding: 6vw 0;
+}
+
+.WhyInfo {
+    width:50vw;
+    padding: 1vw 0;
+    margin-top:2vw;
+}
+
+.whyIncubator h1 {
+    padding:3vw 4vw;
+    font-size: 5vw;
+    margin-top:2vw;
+}
+.WhyInfo i {
+    padding-right:1vw;
+    font-size:3vw;
+}
+.WhyInfo p {
+    font-size:3vw;
+}
+    
+.fireimage {
+    height:60vw;
+    width:100%;
+}
+    
+.ambassador {
+    padding:10vw 0;
+}
+    
+.fireimage section {
+       height:60vw;
+    }
+
+.ambassador h2{
+    font-size:6vw;
+}
+.ambassador p {
+    width:40%;
+    margin-top:1.5vw;
+    margin-left:10%;
+    font-size:2.8vw;
+}
+
+.ambassador a {
+    font-size:3vw;
+    width:40vw;
+    margin: 9vw 8vw;
+    padding:0.38vw 0vw;
+    max-width:100%;
+}
+
+.link2hatch {
+    padding-top: 5vw;
+}
+.link2hatch h3 {
+    width:70vw;
+    font-size:3vw;
+    padding: 2vw 10vw;
+}
+.link2hatch h1 {
+    font-size:12vw;
+    width:50vw;
+    padding: 0vw 2vw;
+    margin-top:4vw;
+}
+.link2hatch h2 {
+    font-size:6vw;
+    width:10vw;
+    padding: 0vw 0vw;
+}
+.link2hatch a {
+    width:30vw;
+    font-size:3vw;
+    margin-left:10vw;
+    margin-top:10vw;
+    
+}
+
+
+
+.link2hatch h4 {
+    font-size:6vw;
+    width:25vw;
+    margin-top:6vw;
+    padding: 0vw 0vw;
+}
+
+#hatchdiv {
+    width:50vw;
+    height:50vw;
+}
+
+.bottompage {
+    overflow:hidden;
+    height:auto;
+    
+}
+.bottompage h1 {
+    margin-top:0vw;
+    margin-bottom:0vw;
+    padding: 5vw 2vw;
+    width:50vw;
+    font-size:4vw;
+    }
+    
+
+.bottompage p {
+    padding: 5vw 0vw;
+    width:50vw;
+    font-size: 3vw;
+    margin-top:0vw;
+    margin-bottom:0vw;
+}
+
+}
+
 
 
 
