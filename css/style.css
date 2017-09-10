@@ -669,6 +669,7 @@ nav a {
 }
 .link2hatch a {
     width:30vw;
+    border-width:thin;
     font-size:3vw;
     margin-left:10vw;
     margin-top:10vw;
