@@ -512,7 +512,7 @@ nav a {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     
 .navbutton {
     font-size:3vw;
