@@ -707,10 +707,13 @@ nav a {
 
 .bottompage p {
     padding: 5vw 0vw;
-    width:50vw;
+    width:40vw;
     font-size: 3vw;
     margin-top:0vw;
     margin-bottom:0vw;
+    }
+ .bottompage img {
+     margin-top:6vw;
     }
 
 }
